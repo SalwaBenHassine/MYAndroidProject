@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BlankFragment">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="147dp"
+        android:src="@drawable/qui" />
+
+    <TextView
+        android:id="@+id/Greeting"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#00E8E1E1"
+        android:fontFamily="sans-serif-black"
+        android:paddingStart="100dp"
+        android:text="Welcome To Quiz App!!"
+        android:textColor="#B65858"
+        android:textSize="20sp" />
+</LinearLayout>

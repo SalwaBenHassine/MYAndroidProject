@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Who is the first president of France?"></TextView>
+
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"
+        android:background="@android:color/white"
+        android:textSize="20sp"
+        android:text="Nicolas Sarko"/>
+
+    <Button
+        android:id="@+id/Btn2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"
+        android:background="@android:color/white"
+        android:textSize="20sp"
+        android:text="Louis-Napoléon Bonaparte"/>
+
+    <Button
+        android:id="@+id/Btn3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"
+        android:background="@android:color/white"
+        android:textSize="20sp"
+        android:text="Jacques Chirac"/>
+
+    <Button
+        android:id="@+id/Btn4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"
+        android:background="@android:color/white"
+        android:textSize="20sp"
+        android:text="Valéry Giscard d'Estaing"/>
+
+</LinearLayout>

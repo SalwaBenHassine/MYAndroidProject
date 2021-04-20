@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="0dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.myapplication.BlankFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_blank" />
+
+    <EditText
+        android:id="@+id/Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please Type Your Name"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="357dp"
+        tools:textColorHint="#B36161" />
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="250dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="90dp"
+        android:background="@color/back"
+        android:backgroundTint="@color/back"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="@string/Play"
+        android:textAlignment="gravity"
+
+        android:textSize="30sp"
+        app:rippleColor="#FFFFFF" />
+
+
+</LinearLayout>
+
